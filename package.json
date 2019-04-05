@@ -1,0 +1,77 @@
+{
+  "_from": "nomadlist-cli",
+  "_id": "nomadlist-cli@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-emVysexiNBDQe4q5HmwktnHV5PU=",
+  "_location": "/nomadlist-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nomadlist-cli",
+    "name": "nomadlist-cli",
+    "escapedName": "nomadlist-cli",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/nomadlist-cli/-/nomadlist-cli-1.0.1.tgz",
+  "_shasum": "7a6572b1ec623410d07b8ab91e6c24b671d5e4f5",
+  "_spec": "nomadlist-cli",
+  "_where": "/Users/korrio/Desktop/2019-Q2/ClaimReview",
+  "author": {
+    "name": "Bu Kinoshita"
+  },
+  "bin": {
+    "nomadlist": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/BuKinoshita/nomadlist-cli/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "boxen": "^0.8.1",
+    "chalk": "^1.1.3",
+    "got": "^6.5.0",
+    "meow": "^3.7.0",
+    "ora": "^0.3.0",
+    "update-notifier": "^1.0.2"
+  },
+  "deprecated": false,
+  "description": "Get cities from nomadlist.com",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "xo": "^0.17.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "https://github.com/BuKinoshita/nomadlist-cli#readme",
+  "keywords": [
+    "nomadlist",
+    "nomad",
+    "cli"
+  ],
+  "license": "MIT",
+  "name": "nomadlist-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuKinoshita/nomadlist-cli.git"
+  },
+  "scripts": {
+    "start": "node cli.js -a",
+    "test": "xo && ava"
+  },
+  "version": "1.0.1",
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "esnext": true,
+    "rules": {
+      "max-params": 0
+    }
+  }
+}
